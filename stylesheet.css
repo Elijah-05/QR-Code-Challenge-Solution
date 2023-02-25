@@ -1,0 +1,52 @@
+/* Mobile First CSS Rules */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {    
+    font-family: 'Outfit', sans-serif;
+    /* min-height: 100vh; */
+    background-color: hsl(212, 45%, 89%);
+}
+
+.container {
+    max-width: 322px;
+    margin: 85px auto;
+    padding: 17px;
+    text-align: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 19px;
+    box-shadow: 0px 8px 18px rgba(127, 127, 127, 0.1);
+    /* border: 1px solid tomato; */
+}
+.image-container {
+    border: 3px solid rgb(3, 3, 3);
+}
+img {
+    width: 100%;    
+    border-radius: 13px;
+}
+.desc-container {
+    margin: 24px 0 21px;
+    padding: 0 18px;
+    /* border: 1px solid tomato; */
+}
+.card-title {
+    font-size: 21px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    padding-bottom: 18px;
+}
+.card-desc {
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
+
+/* Desktop CSS Rules | width > 375px */
+@media screen and (min-width: 376px) {
+    .container {
+        margin: 152px auto;
+    }
+}
